@@ -7,7 +7,6 @@ import LogoIcon from "./img/logo.png"
 import Soot from "./img/soot.png"
 
 
-
  function App() {
 //fetch movies from json
   const [movies, setMovies] = useState ([])
@@ -66,7 +65,7 @@ const [search, setSearch] = useState ("");
   return (
     <>  {/*PAGE HEADER; I worte it here so the buttons at the top will always stay in the header*/}
         <div className="navigation">
-            <nav>
+            <nav className="home-navbar">
             <img src={LogoIcon}  />
               <div className="logo"  >
                 

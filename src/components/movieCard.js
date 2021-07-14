@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import ReactStars from "react-rating-stars-component";
+import {Link} from "react-router-dom";
 
 function Card({movie}) {
     
-
 	return (
 				<div className="movie-card" style={{backgroundImage: `url(${movie.PicURL})`, backgroundSize: "cover"}}>
                     <div className="color-overlay">
@@ -28,7 +28,8 @@ function Card({movie}) {
                                     })}
                                 </div>*/}
                                 <h4 className="movie-genres">{movie.Genres}</h4>
-                                <p className="movie-desc">{movie.Descrip} <a href="#">Read more...</a></p>
+                                <p className="movie-desc">{movie.Descrip}</p>
+                                <Link to={{pathname:`/MovieFullDescription/${movie.Title}`, state:{movie}}} >Read More</Link>
                                 <h4 className="movie-score">Score: {movie.Score}</h4>
                                 <br/>
                                 <a className="trailerBtn" href={movie.Trailer} target="_blank">Watch Trailer</a>

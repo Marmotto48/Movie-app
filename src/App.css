@@ -56,11 +56,15 @@
 		font-weight: 700;
 }
 .movie-score {
-  font-size: .8em;
+  	font-size: .8em;
 	color: #2abcff;
-line-height: 1;
-  margin-bottom: 15px;
+	line-height: 1;
+ 	margin-bottom: 15px;
+	margin-top: 15px;
 }	
+.read-more:visited {
+	color: rgb(182, 175, 176);
+  }
 .movie-header {
 		margin-bottom: 2em;	
 }
@@ -71,7 +75,7 @@ line-height: 1;
   	overflow: hidden;
    	text-overflow: ellipsis;
    	display: -webkit-box;
-   	-webkit-line-clamp: 8; 
+   	-webkit-line-clamp: 7; 
    	-webkit-box-orient: vertical;
 }
 
@@ -251,7 +255,7 @@ nav ul li {
 	float: left;
 	position: relative;
 }
-nav ul li a,nav ul li a:visited {
+.home-navbar ul li a,nav ul li a:visited {
 	display: block;
 	padding: 0 20px;
 	line-height: 55px;
@@ -503,3 +507,159 @@ form {
 	width: 500px;
 	max-width: 100%;
   }
+
+
+  /*MOVIE PAGE*/
+  .grid {
+	  grid-row-gap : 26px;
+	  grid-template-areas: "Area";
+	  -ms-grid-columns: 1.5fr 1fr;
+	  grid-template-columns: 1.5fr 1fr;
+}
+.sticky-nav {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+	padding: 20px;
+	background-color: #4b4949;
+}
+
+  .upper {
+	display: grid;
+	grid-template-columns: 1.7fr  1.3fr;
+	grid-template-rows: 0.2fr 2.6fr 0.2fr;
+	gap: 25px 25px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	  ". . ."
+	  "vid . desc"
+	  ". . .";
+	grid-area: 1 / 1 / 3 / 4;	background-color:#f0d3d325;	
+	color: rgb(253, 243, 223);
+	font-weight: bolder;
+  }
+  
+  .vid {
+	  grid-area: vid;
+	  margin-left: 20px;
+	}
+  
+  .desc {
+	display: grid;
+	grid-template-columns: 0.8fr;
+	grid-template-rows: 0.6fr 0.5fr 1.9fr;
+	gap: 0px 0px;
+	grid-auto-flow: column;
+	grid-template-areas:
+	  "title title title"
+	  "genre genre genre"
+	  "parag parag parag";
+	grid-area: desc;
+  }
+  
+  .title { grid-area: title; }
+  
+  .genre { grid-area: genre; }
+  
+  .parag { grid-area: parag; }
+  
+  
+  html, body , .container {
+	height: 100%;
+	margin: 0;
+  }
+	
+  /* For presentation only, no need to copy the code below */
+  
+  .movie-page-container * {
+	position: relative;
+  }
+  .movie-page-container {
+	display: grid;
+	grid-template-columns: 1fr 0.8fr 1.2fr;
+	grid-template-rows: 1fr 0.8fr 1.2fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	
+  }
+  
+  .movie-page-container { grid-area: 1 / 1 / 4 / 4; }
+  
+.down {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr 0.5fr;
+	grid-template-rows: 1fr 1fr ;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	  ". details-content ."
+	  ". details-content ."
+	  ". details-content .";
+	grid-area: 3 / 1 / 4 / 4;
+	background-color:#f0d3d325;	
+  }
+  
+  .details-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 0.4fr 1.9fr 0.7fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	  "details-here details-here ."
+	  "details-here details-here share-icons"
+	  "details-here details-here .";
+	grid-area: details-content;
+  }
+  
+  .details-here {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 0.4fr 1.7fr 0.7fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	  "detail-h1 detail-h1 detail-h1"
+	  "area area area"
+	  ". . .";
+	grid-area: details-here;
+  }
+  
+  .detail-h1 { 
+	  grid-area: detail-h1; 
+	  color: rgb(206, 212, 212);
+	  font-weight: bolder;
+	}
+  
+  .area {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 0.3fr 0.3fr 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	  "score score score"
+	  "Premiere Premiere Premiere"
+	  "studio studio studio";
+	grid-area: area;
+	color: rgb(255, 255, 255);
+  }
+  
+  .score { grid-area: score; }
+  
+  .Premiere { grid-area: Premiere; }
+  
+  .studio { grid-area: studio; }
+  
+  .share-icons { grid-area: share-icons; };
+  .share {
+	color: rgb(255, 255, 255);
+	font-weight: bolder;	
+  }
+
+
+
+
+
+
