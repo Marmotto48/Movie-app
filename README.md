@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Movie APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a react movie app using Hooks.
+The objectif of this project is to test Jenkins with react and without Docker for checkpoint 3
+![alt text](https://scontent.ftun4-2.fna.fbcdn.net/v/t1.15752-9/278011190_573485060391679_4405500394773500146_n.png?_nc_cat=100&ccb=1-5&_nc_sid=ae9488&_nc_ohc=vG0zd5f1_1EAX8TtBcg&_nc_ht=scontent.ftun4-2.fna&oh=03_AVKwHZUD4pkv2BZz-emJ-ttWyGzC_46nWm17RmbCYELohg&oe=6277AB6F)
 
-## Available Scripts
+# Jenkins
 
-In the project directory, you can run:
+## Configuration steps
 
-### `npm start`
+### `Branch Source`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![alt text](https://scontent.ftun4-2.fna.fbcdn.net/v/t1.15752-9/277916176_335478028582179_1514332013031508792_n.png?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_ohc=WVE05NAaVsoAX_IYyMN&_nc_ht=scontent.ftun4-2.fna&oh=03_AVJExhG7QammTXNmqHXM6ntGL8rtX4hBG0T8viMPBfFsaw&oe=627701E7)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+### `Build Configuration`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![alt text](https://scontent.ftun4-2.fna.fbcdn.net/v/t1.15752-9/277914282_1015027985807743_5427233817104081604_n.png?_nc_cat=100&ccb=1-5&_nc_sid=ae9488&_nc_ohc=wYLwnx5S4RsAX8udJ7z&tn=i8evqGiihGhZV0N9&_nc_ht=scontent.ftun4-2.fna&oh=03_AVL-pOj96bzEKOIPBEUcrkigyQceypwLTTFW2MkVvF6YhQ&oe=627660F4) 
 
-### `npm run build`
+## Ocean Blue plugin
+### `Build`
+![alt text](https://scontent.ftun4-1.fna.fbcdn.net/v/t1.15752-9/278000219_1108428383272091_4774510154318166026_n.png?_nc_cat=110&ccb=1-5&_nc_sid=ae9488&_nc_ohc=0JjLVXTHr60AX-Hn4nz&_nc_ht=scontent.ftun4-1.fna&oh=03_AVLon5nhKOIB6qVmm9T1ofeMC1feYnAEDBywPM1Oc-74GA&oe=6278A75E)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### `Run and Test`
+![alt text](https://scontent.ftun4-2.fna.fbcdn.net/v/t1.15752-9/278102244_2856189351341570_1851197662680961461_n.png?_nc_cat=100&ccb=1-5&_nc_sid=ae9488&_nc_ohc=SCjpr8lS6AEAX_2LALX&_nc_ht=scontent.ftun4-2.fna&oh=03_AVJpyNgTnabCUgx8plqud1KG9sHHA9DSRCVArL9IpGoEug&oe=627858E8)
