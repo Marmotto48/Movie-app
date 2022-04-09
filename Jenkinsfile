@@ -3,8 +3,9 @@ pipeline {
 
     stages {
         stage('Build') {
-            steps {sh "npm install"
-                echo 'ess..'
+            steps {
+                sh "npm install"
+                echo 'Installing Dependencies...'
             }
         }
         stage('Start') { 
